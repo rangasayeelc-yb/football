@@ -159,7 +159,7 @@ def main():
   
   # Total points if team with higher market value wins
   rel_teams = findExpectedPoints_squadMktVal(rel_teams, jsonFixtures['fixtures'], jsonTeams['teams'])
-  print sorted(rel_teams, key=itemgetter('ePts_MktVal'), reverse=True)
+  print sorted(rel_teams, key=itemgetter('ePts_mktval'), reverse=True)
   
   
   
